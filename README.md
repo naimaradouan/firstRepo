@@ -24,8 +24,9 @@ gantt
     Préparation de la présentation :a5, 2024-10-26, 2024-10-30
 
 ```
+![Description de l'image](images/photopng.jpg)
 
-![Description de l'image](photopng.jpg)
+
 
 
 ## Méthodes
