@@ -22,4 +22,4 @@ gantt
     Création de visualisations :a4, 2024-10-21, 2024-10-25
     section Présentation
     Préparation de la présentation :a5, 2024-10-26, 2024-10-30
-
+```
