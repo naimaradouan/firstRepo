@@ -42,3 +42,30 @@ Nous utiliserons les ensembles de données suivants :
 ## Résultats attendus
 Nous espérons obtenir une visualisation interactive du trafic des vélos à Montpellier, incluant des prévisions pour les jours suivants. De plus, nous souhaitons identifier les zones de forte utilisation et évaluer l'impact des événements sur le nombre de trajets effectués.
 
+
+
+
+
+
+
+
+## Rétro-Planning du Projet de Partage de Vélos
+
+| Date       |      Étape                                        | Description                                    |
+|------------|----------------------------------------------|------------------------------------------------  |
+| 16/10 - 20/10 | Analyse des données existantes              | Identifier et comprendre les besoins du projet.|
+| 21/10 - 25/10 | Collecte de données sur le trafic           | Rassembler les données nécessaires.             |
+| 26/10 - 31/10 | Nettoyage des données                       | Préparer les données pour l'analyse.           |
+| 01/11 - 10/11 | Analyse statistique des données             | Extraire des informations significatives.      |
+| 11/11 - 20/11 | Création des visualisations interactives    | Développer des graphiques et cartes.           |
+| 21/11 - 05/12 | Développement du site web                   | Créer une plateforme pour les visualisations.   |
+| 06/12 - 12/12 | Préparation de la présentation finale       | Élaborer les diapositives et le discours.      |
+| 13/12       | Présentation finale                          | Exposer les résultats du projet.               |
+
+
+http://localhost:6776/deloppement_logiciel.html
+
+
+
+
+
