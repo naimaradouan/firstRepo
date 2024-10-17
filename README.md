@@ -63,7 +63,7 @@ Nous espérons obtenir une visualisation interactive du trafic des vélos à Mon
 | 13/12       | Présentation finale                          | Exposer les résultats du projet.               |
 
 
-http://localhost:6776/deloppement_logiciel.html
+http://localhost:5540/deloppement_logiciel.html#retro-planning-avec-diagramme-de-gantt
 
 naimamm
 
