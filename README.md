@@ -1,71 +1,23 @@
-
----
-title: "README de Projet"
-format: 
-  html:
-    engine: knitr
----
-
-## Retro Planning avec un Diagramme de Gantt
-
 ```{mermaid}
 gantt
-    title Planification du Projet de Partage de Vélos à Montpellier
+    title Diagramme Gantt du Projet
     dateFormat  YYYY-MM-DD
-    section Collecte de données
-    Collecte des données :a1, 2024-10-01, 2024-10-10
-    section Traitement des données
-    Nettoyage des données :a2, 2024-10-11, 2024-10-15
-    section Analyse
-    Analyse préliminaire :a3, 2024-10-16, 2024-10-20
-    section Visualisation
-    Création de visualisations :a4, 2024-10-21, 2024-10-25
-    section Présentation
-    Préparation de la présentation :a5, 2024-10-26, 2024-10-30
-
+    axisFormat  %d-%m
+    section Analyse et Collecte
+    Analyse des besoins du projet        :done,   des1, 2024-09-27, 2024-10-01
+    Analyse des données existantes       :done,   des2, 2024-10-02, 2024-10-06
+    Collecte de données sur le trafic    :done,   des3, 2024-10-07, 2024-10-11
+    Nettoyage des données                :active, des4, 2024-10-12, 2024-10-16
+    section Analyse et Développement
+    Analyse préliminaire des données     :        des5, 2024-10-17, 2024-10-21
+    Développement du site web (Partie 1) :        des6, 2024-10-22, 2024-10-27
+    Analyse statistique des données      :        des7, 2024-10-28, 2024-11-02
+    Création des visualisations interactives:     des8, 2024-11-03, 2024-11-08
+    Développement du site web (Partie 2) :        des9, 2024-11-09, 2024-11-14
+    section Finalisation et Présentation
+    Tests et ajustements du site         :        des10, 2024-11-15, 2024-11-20
+    Révisions et finalisation des résultats:      des11, 2024-11-21, 2024-11-25
+    Préparation de la présentation finale: crit,       des12, 2024-11-26, 2024-12-04
+    Répétitions pour la présentation     :   crit,     des13, 2024-12-05, 2024-12-12
+    Présentation finale                  :  crit,      des14, 2024-12-13, 1d
 ```
-![Description de l'image](images/photopng.jpg)
-
-
-
-
-## Méthodes
-
-Pour analyser les données, nous utiliserons des techniques de visualisation et de modélisation prédictive. Les données de circulation des vélos seront traitées pour identifier les tendances saisonnières et les périodes de forte affluence. Nous allons également appliquer des méthodes statistiques pour évaluer l'impact des événements locaux sur l'utilisation des vélos.
-## Données
-
-Nous utiliserons les ensembles de données suivants :
-- **Bike-sharing rides** : Données sur les trajets effectués avec le service de vélo partagé.
-- **Cyclist and pedestrian counting** : Comptages de cyclistes et de piétons à divers endroits de Montpellier.
-- **Open Street Map** : Informations géographiques sur les pistes cyclables et les infrastructures de transport.
-- 
-## Résultats attendus
-Nous espérons obtenir une visualisation interactive du trafic des vélos à Montpellier, incluant des prévisions pour les jours suivants. De plus, nous souhaitons identifier les zones de forte utilisation et évaluer l'impact des événements sur le nombre de trajets effectués.
-
-
-
-
-
-
-
-
-## Rétro-Planning du Projet de Partage de Vélos
-
-| Date       |      Étape                                        | Description                                    |
-|------------|----------------------------------------------|------------------------------------------------  |
-| 16/10 - 20/10 | Analyse des données existantes              | Identifier et comprendre les besoins du projet.|
-| 21/10 - 25/10 | Collecte de données sur le trafic           | Rassembler les données nécessaires.             |
-| 26/10 - 31/10 | Nettoyage des données                       | Préparer les données pour l'analyse.           |
-| 01/11 - 10/11 | Analyse statistique des données             | Extraire des informations significatives.      |
-| 11/11 - 20/11 | Création des visualisations interactives    | Développer des graphiques et cartes.           |
-| 21/11 - 05/12 | Développement du site web                   | Créer une plateforme pour les visualisations.   |
-| 06/12 - 12/12 | Préparation de la présentation finale       | Élaborer les diapositives et le discours.      |
-| 13/12       | Présentation finale                          | Exposer les résultats du projet.               |
-
-
-http://localhost:5540/deloppement_logiciel.html#retro-planning-avec-diagramme-de-gantt
-
-naimamm
-
-
-
