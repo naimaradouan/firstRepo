@@ -64,7 +64,7 @@ Ce projet vise à développer une **application web interactive** pour analyser 
 
 # Planification Rétro
 
-```mermaid
+```{mermaid}
 gantt
     title Timeline du Projet
     dateFormat  YYYY-MM-DD
@@ -77,3 +77,4 @@ gantt
     section Déploiement
     Développement du Site Web :  des5, 2024-10-31, 2024-11-15
     Révision Finale           :  des6, 2024-11-16, 2024-11-20
+```
