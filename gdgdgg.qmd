@@ -55,3 +55,4 @@ axes[1].set_title("Trafic moyen - 2024")
 plt.tight_layout()
 plt.savefig('intensite_traffics_map.png', dpi=300)
 plt.close()
+```
