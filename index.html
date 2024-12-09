@@ -3,36 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carte des quartiers de Montpellier</title>
-    <style>
-        /* Conteneur pour aligner les cartes côte à côte */
-        .cartes-container {
-            display: flex;
-            justify-content: space-around; /* Espacement égal entre les cartes */
-            gap: 20px; /* Espacement entre les cartes */
-            flex-wrap: wrap; /* Permet de passer à une ligne suivante si l'espace est insuffisant */
-        }
-        .carte {
-            width: 48%; /* Taille de chaque iframe (2 cartes par ligne) */
-            height: 600px;
-            border: 1px solid #ccc; /* Optionnel : bordure pour chaque iframe */
-        }
-        @media screen and (max-width: 768px) {
-            /* Réduction pour les petits écrans : une seule carte par ligne */
-            .carte {
-                width: 100%;
-            }
-        }
-    </style>
+    <title>Carte des Quartiers</title>
 </head>
 <body>
-    <h1>Carte des quartiers de Montpellier</h1>
-    <div class="cartes-container">
-       <!-- Carte interactive pour 2024 -->
-        <iframe class="carte" src="carte_intensite_traffic.html"></iframe>
-        <!-- Carte interactive pour 2024 -->
-        <iframe class="carte" src="carte_intensite_traffic.html"></iframe>
-    </div>
+    <h1>Carte des Intensités de Trafic</h1>
+    <img src="intensite_traffics_map.png" alt="Carte des intensités" style="width: 50%; margin: auto; display: block;">
 </body>
 </html>
-
