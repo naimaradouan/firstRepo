@@ -56,3 +56,4 @@ plt.tight_layout()
 plt.savefig('intensite_traffics_map.png', dpi=300)
 plt.close()
 ```
+<img src="intensite_traffics_map.png" alt="Carte des intensités" style="width: 50%; margin: auto; display: block;">
