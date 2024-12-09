@@ -96,3 +96,28 @@ plt.tight_layout(rect=[0, 0, 0.9, 1])  # Ajuster pour laisser la place à la lé
 # Sauvegarder l'image de la carte
 plt.savefig('intensite_traffics_map.png', dpi=300)
 plt.close()
+import folium
+
+# Fonction pour générer une carte interactive
+def generer_carte_interactive(gdf, fichier_sortie, titre):
+    # Créer une carte centrée sur Montpellier
+    m = folium.Map(location=[43.6117, 3.8767], zoom_start=12)
+
+    # Ajouter les quartiers avec leurs intensités
+    folium.GeoJson(
+        gdf,
+        style_function=lambda feature: {
+            'fillColor': 'red' if feature['properties']['intensity'] else 'grey',
+            'color': 'black',
+            'weight': 1,
+            'fillOpacity': 0.7,
+        },
+        tooltip=folium.GeoJsonTooltip(fields=['name', 'intensity'], aliases=['Quartier', 'Intensité']),
+    ).add_to(m)
+
+    # Sauvegarder la carte en HTML
+    m.save(fichier_sortie)
+
+# Générer les cartes interactives
+generer_carte_interactive(quartiers_gdf_2022, 'carte_interactive_2022.html', "Carte 2022")
+generer_carte_interactive(quartiers_gdf_2024, 'carte_interactive_2024.html', "Carte 2024")
